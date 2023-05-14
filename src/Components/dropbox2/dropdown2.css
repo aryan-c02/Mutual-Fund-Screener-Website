@@ -1,0 +1,18 @@
+.dropdown{
+    
+    border-top: 0.1px solid  #dcdfe1;
+    border-bottom: 0.1px solid #dcdfe1;
+    
+}
+
+.form-check{
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #f9fafc;
+    margin-bottom: 15px;
+    
+}
+
+.label-stock{
+      margin-left: 10px;
+}

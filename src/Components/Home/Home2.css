@@ -1,0 +1,131 @@
+
+
+.left{
+    width: 22%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color:#dcdfe1;
+    border-width: 0.5px;
+    height: 80vh;
+   
+}
+
+.left-overflow{
+    overflow-y: scroll;
+}
+
+.left-second{
+    width: 22%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color:#dcdfe1;
+    border-width: 0.5px;
+    height: 80vh;
+}
+
+.left-child{
+    height: 43px ;
+}
+
+.left-filters{
+   
+    font-size: 15px;
+    border-bottom: 1px solid #dcdfe1; 
+    height:46px;
+   
+}
+
+
+
+
+
+.save-btn{
+    background-color: #ffffff;
+    border: none;
+    border: 0.1px solid #dbdee0;
+    height: 25px;
+    width: 50px;
+    margin-left: 100px;
+    border-radius: 0.3rem;
+}
+
+.new-screens{
+    font-size: 18px !important;
+    font-weight: 500px !important;
+    margin-left: 13px;
+}
+
+.add-filter-button{
+    height: 40px;
+    width: 240px;
+    padding: 10px 10px 10px 10px;
+    margin-left : 14px;
+    background-color: #151e28;
+    margin-top: 32px;
+    color: #dcdfe1;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.7rem;
+    transition: transform 2s;
+    cursor: pointer;
+
+}
+
+.add-filter-button:hover{
+    transform : scale(1.015);
+}
+
+
+.filters-count-div-child{
+    width: 240px;
+  
+    height: 24px;
+    margin-top: 5px;
+}
+
+.reset-btn{
+    margin-left: 20px;
+    margin-right: 15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 0.3rem;
+    
+}
+
+.reset-btn:active{
+    box-shadow: 1px 1px 1px 1px #dcdfe1  ;
+}
+
+.downward-icon{
+   
+   
+    height:30px;
+    width: 25px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: 200;
+   
+}
+
+.stock-uni{
+     display: flex;
+    flex-direction: row;
+}
+
+.stock-uni-write{
+    padding-top: 13px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 250px;
+
+}
+
+

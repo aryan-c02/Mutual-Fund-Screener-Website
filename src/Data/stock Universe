@@ -1,0 +1,5 @@
+
+ const stock_universe_array = [ "NIFTY 50", "NIFTY 100", "NIFTY 500",
+"NIFTY smallcap 100"];
+
+export default stock_universe_array;

@@ -1,0 +1,218 @@
+
+
+
+#Home-div{
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    
+}
+
+
+.right{
+    float: right;
+    width: 78%;
+     border-style: solid;
+    border-color:#dcdfe1;
+    border-width: 0.5px;
+    
+}
+
+
+
+
+.data-table{
+    display: block;
+    overflow: auto;
+    
+}
+
+.heading-row{
+    
+    display: flex;
+    height: 40px;
+}
+
+.row1{
+    width: 270px;
+    text-align: center;
+   
+    border-top: 0.1px solid  #dcdfe1;
+    border-bottom: 0.1px solid #dcdfe1;
+    align-items: center;
+
+}
+
+.row0{
+    width: 80px;
+    text-align: center;
+   border-top: 0.01px solid  #dcdfe1;
+     border-bottom: 0.1px solid  #dcdfe1;
+
+     font-size: 14px;
+     font-weight: 500;
+    line-height: 19.6px;
+    
+    font-family: "grpahik-medium"; 
+
+  
+    
+}
+
+.row0 :hover{
+    color: rgb(0, 136, 234);
+}
+
+.table-top{
+    height: 11vh !important;
+    display: flex;
+    align-items: center;
+    border-radius: 0.2rem;
+ 
+}
+
+.showing-results{
+    text-align: start;
+    font-size: 16px;
+   font-weight: 500;
+   line-height: 19.6px;
+   color:  rgb(48, 54, 63);
+   margin-left: 20px;
+}
+
+.showing-results-end{
+    margin-left: 650px;
+}
+
+.time-span{
+
+    font-size: 14px;
+   font-weight: 400;
+   line-height: 16.8px;
+   color: rgb(129, 135, 140)
+    
+}
+
+.Asking-logo{
+    margin-right: 10px;
+}
+
+.Export-Button{
+  background-color: aliceblue ;
+  border: none;
+  color: #2a323b;
+  border: 1px solid #2a323b;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+
+
+
+.table-div{
+    height: 440px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+   
+}
+
+.empty-div{
+    height: 10vh;
+}
+
+.arrow-div{
+    
+  position: relative;
+    top: -25% ;
+    left: 2%;  
+    
+}
+
+.downward-arrow{
+    position: relative;
+    top: -7% ;
+    left: 4%;  
+    font-weight: 100;
+}
+
+.right-one{
+    font-size: 14px;
+     font-weight: 500;
+    line-height: 19.6px;
+    
+    font-family: "grpahik-medium"; 
+
+}
+
+.compelete-row:hover{
+
+    .blue-hona-hai{
+    color: rgb(0, 136, 234);
+    }
+}
+
+.Export-Button{
+    border: 1px solid #dcdfe1;
+    background : none;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.showing-results-end{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.first{
+    width: 5%;
+
+}
+.second{
+    width: 40%;
+    font-size: large;
+}
+
+.third{
+    width: 35%;
+    
+}
+.fourth{
+    width: 25%;
+
+}
+
+ .fifth, .six{
+    width: 17%;
+    justify-content: flex-start;
+    
+}
+
+.pe-div{
+      font-size: large;
+      
+    font-weight: 500;
+    line-height: 19.6px;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 0px;
+}
+
+
+.name-row{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 19.6px;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 0px;
+    
+}
+
+
+

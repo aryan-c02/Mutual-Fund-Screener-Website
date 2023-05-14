@@ -1,0 +1,61 @@
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.slider {
+  display: flex;
+  animation: slide 40s linear infinite;
+  margin-bottom: 0;
+  width: max-content;
+}
+
+.slider-in-div{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: aliceblue;
+    margin-top: 7px;
+    
+    
+}
+
+.slider-father-div{
+    background-color: #151e28;   
+    border-bottom: 2px solid #2a323b;
+    height: 5vh;
+    font-weight: 400;
+   
+}
+
+.slider-in-span{
+    color: #178c49;
+    margin-left: 1px;
+}
+
+.icon-slider{
+  height: max-content;
+  width: max-content;
+  margin-top : -1.9%;
+  margin-right: 2%;
+  background-color: #178c49;
+}
+
+.father-div{
+  display: flex;
+  flex-direction: row;
+}
+
+.price-span{
+
+  margin-top: 0%;
+  margin-right: -4%;
+  margin-left: 2%;
+
+}
+.pe-value-div{
+  font-weight: 800;
+  margin-left: 8px;
+}
