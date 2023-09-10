@@ -16,6 +16,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 
 
+
 const Home = () => {
 
   const [stockUni, setStockUni] = useState(0);
@@ -83,7 +84,7 @@ const Home = () => {
 
   }
 
-  console.log(tableData);
+
 
 
 
@@ -109,6 +110,7 @@ const Home = () => {
     <>
       <Slider />
       <Navbar />
+
 
       <div id='Home-div'>
 
